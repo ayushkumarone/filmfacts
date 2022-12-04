@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/x-icon" href="css/film-reel.png" />
+    <title>FilmFacts</title>
+</head>
+<body>
+  <nav class="navigation" id="navigation">
+    <div class="progressbar">
+      <div class="progress-bar-inner" id="progress-bar-inner">
+      </div>
+    </div>
+    <button id="navbutton" class="navbutton" onclick="sidebaron()" style="color: #757575;"><i class="fa-solid fa-bars"></i></button>
+    <div id="mysidebar" class="sidebar">
+      <p>‎</p>
+      <p>‎</p>
+      <p>‎</p>
+      <a href="index.html" onclick="sidebaroff()"><i class="fa-solid fa-house"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href=""><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href=""> <i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href=""> <i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- <a onclick="changemode()"><i class="fa-solid fa-sun"></i></a> -->
+      <p>‎</p>
+    </div>
+    <a href="index.html" class="logo" id="logo">
+      FilmFacts
+    </a>
+    <form action="searchpage.html" class="searchbar">
+        <input type="search" name="search" placeholder="Find movies" class="searchbar-input">
+        <button type="submit">
+            <i class="fas fa-search"></i>
+        </button>
+    </form>
+  </nav>
+
+  <div id="search_results" style="padding-top: 100px;">
+    
+  </div>
+  <div class="footer">
+    <div class="links">
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><i class="fa-brands fa-twitter"></i></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""> <i class="fa-brands fa-youtube"></i></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <br>
+    <i class="fa-regular fa-copyright"></i> Made by <a href="" style="text-decoration:none; color:#dbdbdb">Ayush Kumar</a>   2022
+  </div>
+  
+</body>
+<script src="js/searchpagejs.js"></script>
+</html>
