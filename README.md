@@ -1,4 +1,4 @@
-# filmfacts
+# Filmfacts
 This project is made by Ayush Kumar.
 
 Link to the project: https://ayushkumarone.github.io/filmfacts/
